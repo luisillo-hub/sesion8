@@ -1,0 +1,22 @@
+* {
+    margin: 0; /*elimina el margen*/
+    padding: 0; /*elimina el relleno*/
+    box-sizing: border-box;
+}
+body {
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    height: 100hv; /*ocupa la altura completa de la pagina*/
+    background-color: #bebeff;
+    font-family: Arial, sans-serif;
+    color: #ffffff;
+}
+div {
+    text-align: center;
+    padding: 20px;
+    border-radius: 15px;
+    background-color:  #16213e;
+    max-width: 600px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3); 
+}
